@@ -1,0 +1,297 @@
+
+/* #000080 */
+body{
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.display{
+    position: relative;
+    bottom: -11rem;
+}
+.icon{
+    height: 3.9rem;
+    overflow:hidden;
+    position: absolute;
+    top: 1px;
+    transform: rotate(-6deg);
+    
+}
+h1{
+    position: absolute;
+    font-family: 'Courgette', cursive;
+    font-weight: 700;
+    transform: skew(6deg,-5deg);
+    word-spacing: 1rem;
+    font-size: 4rem;
+    left: 4.6rem;
+    text-shadow: 2px 2px #d2d4d6;
+    z-index: 1;
+    
+}
+h2{
+    display: inline-block;
+    text-shadow: 1px 1px 4px #000000;
+    
+}
+.display{
+    display: none;
+    position: absolute;
+    transform: skew(6deg,-5deg);
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    top: 9rem;
+    left: 3rem;
+    text-shadow: 1px 1px #d2d4d6;
+    font-style: italic;
+    
+}
+.kitten{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: -4rem;
+    right: -1rem;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+.title{
+  font-family: 'Lobster';
+    font-size: 2.4rem;  
+    color: rgb(255, 255, 255);
+}
+header{
+    padding-right: 2rem;
+}
+.nav-link{
+    color: 	#ffffff;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 4px #000000;
+}
+.home {
+    font-weight: 473;
+}
+#bigger{
+    font-family: 'Lobster';
+    font-size: 2.4rem;
+    font-size: larger;
+    font-style: italic;
+}
+#ontop{
+    z-index: 2;
+}
+.nav{
+    border-bottom: double 3px rgb(255, 253, 253);
+    background-color: #0d0d73;
+    position: fixed;
+    width: 200%;
+    z-index: 2;
+}
+.jumbotron{
+    position: relative;
+    top: 3.5rem;
+    background-color: #71eeb8;
+    height: 20rem;
+    right: 0;
+ 
+    
+}
+.blocker{
+    display: block;
+    background-color: white;
+    z-index: 0;
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 23.5rem;
+}
+.infinite-carousel{
+    display: none;
+}
+.mission{
+    background-color: rgb(251, 248, 248);
+    position: relative;
+    top: -3rem;
+    width: 60%;
+    margin-left: 5px;
+    border: solid 1px gainsboro;
+    justify-content: center;
+    box-shadow: 1px 1px 3px black;
+}
+h3{
+    text-align: center;
+    text-decoration: underline rgb(219, 218, 218);
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+}
+.me-3{
+    margin-right: 1rem;
+}
+.white{
+    color: white;
+}
+.white:hover{
+    text-decoration: none;
+    color: black;
+}
+#signup:hover{
+    color: black;
+}
+
+
+#main{
+    position: relative;
+    right: -4rem;
+    
+}
+#right{
+    position: relative;
+    top: 5rem;
+    background-color: rgb(251, 248, 248);
+    border: solid 1px gainsboro;
+    justify-content: center;
+    box-shadow: 1px 1px 3px black;   
+}
+.info{
+    border-bottom: dotted black 1px ;
+    
+}
+.info > h3{
+    text-decoration: none;
+}
+.fish{
+    height: 195px;
+    width: 288px;
+}
+.pic{
+    box-shadow: 2px 2px 6px black;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+.bird{
+    height: 193px;
+    width: 288px;
+}
+
+.CommonPets{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ExoticPets{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+
+}
+.Heading{
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: x-large;
+
+}
+.publicTable{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -8rem;
+    width: 100%;
+    background-color: rgb(251, 248, 248);
+    border: solid 1px gainsboro;
+    box-shadow: 1px 1px 3px black;
+}
+h4{
+    text-align:center;
+}
+.line{
+    border: 1px solid black;
+}
+.footer{
+    position: relative;
+    right: 0px;
+}
+
+
+
+
+@media(min-width:992px){
+
+.right{
+    border-left: white  solid 1px;
+} 
+.display{
+    display: block;
+}
+.kitten{
+    right: -9rem;
+}
+#main{
+    right: -2rem;
+}
+#right{
+    left: -2rem;
+}
+.publicTable{
+    width: 30%;
+    bottom: 0;
+    top: -20rem;
+    right: -4rem;
+}
+
+}
+
+@media(min-width:1440px){
+
+.right + ul{
+    display: inline-block;
+}
+.infinite-carousel{
+    display: none;
+    position: absolute;
+    float: right;
+    top: -16rem;
+    transform: rotate(3deg);
+    z-index: 0;
+    border-right:solid white 13px;
+    border-left:solid white 13px;
+    box-shadow: 2px 2px 6px black;
+}
+
+
+.infinite-carousel .list{
+    
+    width:700px;
+    height:800px;
+    overflow:hidden;
+    
+}
+.infinite-carousel .viewport{
+  width:600px;
+  height:600px;
+  overflow:hidden;
+}
+.item{
+    width:600px;
+    height:200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    float: left;
+    margin-bottom: 2px;
+}
+}
+@media(min-width: 1700px){
+    .infinite-carousel{
+        display: block;
+        left: 65rem;
+    }
+}

@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    height: 200px;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline rgb(219, 218, 218);
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+.center{
+position: relative;
+right: -12rem;
+}
+.mission{
+    background-color: rgb(251, 248, 248);
+    position: relative;
+    border: solid 1px gainsboro;
+    justify-content: center;
+    box-shadow: 1px 1px 3px black;
+    margin-bottom: 1rem;
+    width: 100%;
+    top: 6rem;
+}
+#right{
+    position: relative;
+    top: 6rem;
+    background-color: rgb(251, 248, 248);
+    border: solid 1px gainsboro;
+    justify-content: center;
+    box-shadow: 1px 1px 3px black;   
+}
+p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+}
+#rod{
+    position: relative;
+    top: 7rem;
+    background-color: rgb(251, 248, 248);
+    border: solid 1px gainsboro;
+    justify-content: center;
+    box-shadow: 1px 1px 3px black;
+}
+.me-3{
+    margin-right: 1rem;
+}
+
+@media(min-width:992px){
+
+    .mission{
+            top: 6rem;
+    margin-left: 1.5rem;
+    }
+    #rod{
+        width: 45%;
+        top: -3rem;
+        right: -2rem;
+    }
+    #right {
+    top: 8rem;
+    left: 56rem;
+    }
+    .center{
+        left: 9rem;
+    }
+}
